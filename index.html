@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="XXQ Quiz — Test and expand your web development knowledge." />
+  <title>XXQ Quiz — Test Your Knowledge</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-badge">Quiz</div>
+      <h1 class="site-title">XXQ</h1>
+      <p class="site-tagline">Test your knowledge — Learn by doing</p>
+    </div>
+  </header>
+
+  <main class="site-main">
+
+    <!-- ===== ABOUT ===== -->
+    <section class="card about-card" aria-labelledby="about-heading">
+      <h2 id="about-heading" class="section-heading">
+        About <abbr title="The Best Quiz Site">XXQ</abbr>
+      </h2>
+      <p class="about-text">
+        <strong>XXQ</strong> is the most <em>reliable</em> platform for those who want to
+        test their web development knowledge with challenging, real-world questions.
+        Work through each question, check your answers, and keep improving.
+      </p>
+    </section>
+
+    <!-- ===== QUESTIONS ===== -->
+    <section class="card questions-card" aria-labelledby="questions-heading">
+      <h2 id="questions-heading" class="section-heading">Questions</h2>
+
+      <form id="quiz-form" novalidate>
+
+        <!-- Q1 — Radio -->
+        <fieldset class="question-block">
+          <legend class="question-label">
+            <span class="question-number">01</span>
+            What does HTML stand for?
+          </legend>
+          <div class="options-grid">
+            <label class="option-label">
+              <input type="radio" name="pergunta1" value="A" />
+              <span class="option-text"><b>A.</b> Hyper Trainer Marking Language</span>
+            </label>
+            <label class="option-label">
+              <input type="radio" name="pergunta1" value="B" />
+              <span class="option-text"><b>B.</b> Hyper Text Markup Language</span>
+            </label>
+            <label class="option-label">
+              <input type="radio" name="pergunta1" value="C" />
+              <span class="option-text"><b>C.</b> High Text Machine Language</span>
+            </label>
+            <label class="option-label">
+              <input type="radio" name="pergunta1" value="D" />
+              <span class="option-text"><b>D.</b> Hyper Tool Multi Language</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <!-- Q2 — Radio -->
+        <fieldset class="question-block">
+          <legend class="question-label">
+            <span class="question-number">02</span>
+            What does CSS stand for?
+          </legend>
+          <div class="options-grid">
+            <label class="option-label">
+              <input type="radio" name="pergunta2" value="A" />
+              <span class="option-text"><b>A.</b> Colorful Style Sheets</span>
+            </label>
+            <label class="option-label">
+              <input type="radio" name="pergunta2" value="B" />
+              <span class="option-text"><b>B.</b> Creative Style System</span>
+            </label>
+            <label class="option-label">
+              <input type="radio" name="pergunta2" value="C" />
+              <span class="option-text"><b>C.</b> Cascading Style Sheets</span>
+            </label>
+            <label class="option-label">
+              <input type="radio" name="pergunta2" value="D" />
+              <span class="option-text"><b>D.</b> Computer Style Sheets</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <!-- Q3 — Text -->
+        <fieldset class="question-block">
+          <legend class="question-label">
+            <span class="question-number">03</span>
+            Which HTML tag is used to insert an image?
+          </legend>
+          <input
+            class="text-input"
+            type="text"
+            id="p3"
+            name="pergunta3"
+            placeholder="e.g. &lt;tag&gt;"
+            autocomplete="off"
+            aria-label="Your answer for question 3"
+          />
+        </fieldset>
+
+        <!-- Q4 — Password -->
+        <fieldset class="question-block">
+          <legend class="question-label">
+            <span class="question-number">04</span>
+            Create a strong password.
+          </legend>
+          <input
+            class="text-input"
+            type="password"
+            id="p4"
+            name="pergunta4"
+            placeholder="Type a strong password…"
+            aria-label="Strong password field"
+          />
+          <p class="field-hint">Use uppercase, numbers and symbols.</p>
+        </fieldset>
+
+        <!-- Q5 — Date -->
+        <fieldset class="question-block">
+          <legend class="question-label">
+            <span class="question-number">05</span>
+            When was HTML first released?
+          </legend>
+          <input
+            class="text-input date-input"
+            type="date"
+            id="p5"
+            name="pergunta5"
+            aria-label="HTML release date"
+          />
+        </fieldset>
+
+        <!-- Q6 — Checkbox -->
+        <fieldset class="question-block">
+          <legend class="question-label">
+            <span class="question-number">06</span>
+            Which of these are considered programming languages? <em>(Select all that apply)</em>
+          </legend>
+          <div class="options-grid">
+            <label class="option-label checkbox-label">
+              <input type="checkbox" name="pergunta6" value="JavaScript" />
+              <span class="option-text">JavaScript</span>
+            </label>
+            <label class="option-label checkbox-label">
+              <input type="checkbox" name="pergunta6" value="Java" />
+              <span class="option-text">Java</span>
+            </label>
+            <label class="option-label checkbox-label">
+              <input type="checkbox" name="pergunta6" value="CSS" />
+              <span class="option-text">CSS</span>
+            </label>
+            <label class="option-label checkbox-label">
+              <input type="checkbox" name="pergunta6" value="HTML" />
+              <span class="option-text">HTML</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <!-- Q7 — File -->
+        <fieldset class="question-block">
+          <legend class="question-label">
+            <span class="question-number">07</span>
+            Select an HTML type file.
+          </legend>
+          <label class="file-label" for="p7">
+            <span class="file-icon">📂</span>
+            <span class="file-text">Choose file…</span>
+            <input type="file" id="p7" name="pergunta7" accept=".html,.htm" aria-label="Upload an HTML file" />
+          </label>
+          <p id="file-name" class="field-hint">No file selected.</p>
+        </fieldset>
+
+        <!-- Q8 — Select -->
+        <fieldset class="question-block">
+          <legend class="question-label">
+            <span class="question-number">08</span>
+            Select the input attribute that defines its type.
+          </legend>
+          <select class="select-input" name="pergunta8" id="p8" aria-label="Select the correct attribute">
+            <option value="" disabled selected>— Choose an option —</option>
+            <option value="id">id</option>
+            <option value="type">type</option>
+            <option value="placeholder">placeholder</option>
+            <option value="select">select</option>
+          </select>
+        </fieldset>
+
+        <!-- Q9 — Image + Text -->
+        <fieldset class="question-block">
+          <legend class="question-label">
+            <span class="question-number">09</span>
+            Which programming language is represented by the logo below?
+          </legend>
+          <figure class="logo-figure">
+            <img src="logo.png" alt="Programming language logo" width="120" />
+            <figcaption>Figure 1 — Identify the programming language.</figcaption>
+          </figure>
+          <input
+            class="text-input"
+            type="text"
+            id="p9"
+            name="pergunta9"
+            placeholder="Your answer…"
+            autocomplete="off"
+            aria-label="Answer for question 9"
+          />
+        </fieldset>
+
+      </form>
+    </section>
+
+    <!-- ===== SCORES TABLE ===== -->
+    <section class="card" aria-labelledby="scores-heading">
+      <h2 id="scores-heading" class="section-heading">Score Guide</h2>
+      <div class="table-wrapper">
+        <table class="scores-table" aria-label="Score feedback table">
+          <thead>
+            <tr>
+              <th scope="col">Score</th>
+              <th scope="col">Feedback</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="score-badge score-low">0 – 2</span></td>
+              <td>Don't give up — every expert started here!</td>
+            </tr>
+            <tr>
+              <td><span class="score-badge score-ok">3 – 4</span></td>
+              <td>Good effort — you're on the right track.</td>
+            </tr>
+            <tr>
+              <td><span class="score-badge score-good">5 – 6</span></td>
+              <td>Great job — solid understanding!</td>
+            </tr>
+            <tr>
+              <td><span class="score-badge score-great">7 – 9</span></td>
+              <td>Excellent — you really know your stuff.</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">Keep learning and improving — the journey never ends. 🚀</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </section>
+
+    <!-- ===== ANSWERS ===== -->
+    <section class="card" aria-labelledby="answers-heading">
+      <h2 id="answers-heading" class="section-heading">Verify Your Answers</h2>
+      <details class="answers-details">
+        <summary class="answers-summary">
+          <span class="summary-icon">🔍</span> Reveal answer key
+        </summary>
+        <ol class="answers-list">
+          <li><strong>Q1.</strong> B — Hyper Text Markup Language</li>
+          <li><strong>Q2.</strong> C — Cascading Style Sheets</li>
+          <li><strong>Q3.</strong> <code>&lt;img&gt;</code></li>
+          <li><strong>Q4.</strong> A strong password of your choice</li>
+          <li><strong>Q5.</strong> 1991</li>
+          <li><strong>Q6.</strong> JavaScript, Java</li>
+          <li><strong>Q7.</strong> Select any <code>.html</code> file from your device</li>
+          <li><strong>Q8.</strong> type</li>
+          <li><strong>Q9.</strong> JavaScript</li>
+        </ol>
+      </details>
+    </section>
+
+    <!-- ===== FEEDBACK FORM ===== -->
+    <section class="card feedback-card" aria-labelledby="feedback-heading">
+      <h2 id="feedback-heading" class="section-heading">Give Us Feedback</h2>
+      <p class="about-text">Loved the quiz? Found an error? We'd love to hear from you.</p>
+
+      <form id="feedback-form" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="fb-name">Name</label>
+            <input
+              class="text-input"
+              type="text"
+              id="fb-name"
+              name="name"
+              placeholder="Your name"
+              required
+              autocomplete="name"
+            />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="fb-email">Email</label>
+            <input
+              class="text-input"
+              type="email"
+              id="fb-email"
+              name="email"
+              placeholder="your@email.com"
+              required
+              autocomplete="email"
+            />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="fb-message">Thoughts & Suggestions</label>
+          <textarea
+            class="textarea-input"
+            id="fb-message"
+            name="feedback"
+            rows="5"
+            placeholder="Tell us what you think…"
+          ></textarea>
+        </div>
+
+        <button class="submit-btn" type="submit">Send Feedback →</button>
+        <p class="success-msg" id="success-msg" aria-live="polite" hidden>
+          ✅ Thank you! Your feedback has been received.
+        </p>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <p>&copy; 2026 XXQ Quiz. All rights reserved.</p>
+    <p>Created by <a href="https://github.com/larah-dev" target="_blank" rel="noopener">larah-dev</a> on GitHub</p>
+  </footer>
+
+  <script>
+    // File input label update
+    const fileInput = document.getElementById('p7');
+    const fileName  = document.getElementById('file-name');
+    if (fileInput && fileName) {
+      fileInput.addEventListener('change', () => {
+        fileName.textContent = fileInput.files.length
+          ? fileInput.files[0].name
+          : 'No file selected.';
+      });
+    }
+
+    // Feedback form submit
+    const feedbackForm = document.getElementById('feedback-form');
+    const successMsg   = document.getElementById('success-msg');
+    if (feedbackForm) {
+      feedbackForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        successMsg.hidden = false;
+        feedbackForm.reset();
+        setTimeout(() => { successMsg.hidden = true; }, 5000);
+      });
+    }
+
+    // Option card highlight on selection
+    document.querySelectorAll('.option-label input').forEach(input => {
+      input.addEventListener('change', () => {
+        const group = input.closest('.options-grid');
+        if (!group) return;
+        if (input.type === 'radio') {
+          group.querySelectorAll('.option-label').forEach(l => l.classList.remove('selected'));
+        }
+        if (input.checked) input.closest('.option-label').classList.add('selected');
+        else               input.closest('.option-label').classList.remove('selected');
+      });
+    });
+  </script>
+
+</body>
+</html>
