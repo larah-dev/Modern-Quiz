@@ -2,7 +2,6 @@
 
 A modern quiz website built with clean design, smooth layout and user experience.
 
-![Status](https://img.shields.io/badge/status-online-red?style=for-the-badge) <br>
 ![HTML](https://img.shields.io/badge/html-frontend-black?style=for-the-badge&logo=html5) <br>
 ![CSS](https://img.shields.io/badge/css-styling-red?style=for-the-badge&logo=css3) <br>
 
