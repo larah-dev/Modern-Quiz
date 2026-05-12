@@ -30,6 +30,8 @@ A modern quiz website built with clean design, smooth layout and user experience
 
 <img width="1062" height="515" alt="Captura de tela 2026-05-09 213430" src="https://github.com/user-attachments/assets/ecea119e-02a3-46f4-8684-37a3f02f6888" />
 
+-Website link: larah-dev.github.io/Modern-Quiz/
+
 ---
 
 ## 📂 Project Structure
