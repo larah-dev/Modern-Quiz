@@ -3,6 +3,7 @@
 A modern quiz website built with clean design, smooth layout and user experience.
 
 ![HTML](https://img.shields.io/badge/html-frontend-black?style=for-the-badge&logo=html5) <br>
+<br>
 ![CSS](https://img.shields.io/badge/css-styling-red?style=for-the-badge&logo=css3) <br>
 
 ---
