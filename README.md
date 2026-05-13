@@ -2,7 +2,7 @@
 
 A modern quiz website built with clean design, smooth layout and user experience.
 
-![HTML](https://img.shields.io/badge/html-frontend-black?style=for-the-badge&logo=html5) <br>
+![HTML]<img src="https://img.shields.io/badge/☕%20HTML-FRONT%20END-8B5E3C?style=for-the-badge&labelColor=3E2723&color=A67B5B"> <br>
 <br>
 ![CSS](https://img.shields.io/badge/css-styling-red?style=for-the-badge&logo=css3) <br>
 
@@ -20,9 +20,8 @@ A modern quiz website built with clean design, smooth layout and user experience
 ---
 
 
-<a href="https://larah-dev.github.io/Modern-Quiz/">
-  <img src="https://img.shields.io/badge/☕%20MODERN%20QUIZ-VIEW%20PROJECT-8B5E3C?style=for-the-badge&labelColor=3E2723&color=A67B5B">
-  <\a>
+
+  
 
 
 
