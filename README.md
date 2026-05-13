@@ -8,14 +8,10 @@ A modern quiz website built with clean design, smooth layout and user experience
 
 ---
 
-## 📌 Features
+## 📌 Meaning
 
-- Modern UI Design
-- Smooth Layout
-- Interactive Questions
-- Professiona CSS
-- Clean User Experience
-- Beginner Friendly Structure
+This project was created to show and explore the possibilities of HTML.  
+It includes elements such as forms, input fields, select boxes, buttons, and structured content to demonstrate how simple frontend technologies can create engaging user experiences.
 
 ---
 
