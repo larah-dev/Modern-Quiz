@@ -48,5 +48,6 @@ A modern quiz website built with clean design, smooth layout and user experience
 Project/
 
 ├── assets/
+├── README.md
 ├── index.html
 ├── style.css
