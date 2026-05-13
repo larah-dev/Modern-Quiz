@@ -45,7 +45,8 @@ A modern quiz website built with clean design, smooth layout and user experience
 ## 📂 Project Structure
 
 ```bash
-Modern-Quiz/
-│
+Project/
+
+├── assets/
 ├── index.html
 ├── style.css
