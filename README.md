@@ -19,6 +19,13 @@ A modern quiz website built with clean design, smooth layout and user experience
 
 ---
 
+
+<a href="https://larah-dev.github.io/Modern-Quiz/">
+  <img src="https://img.shields.io/badge/☕%20MODERN%20QUIZ-VIEW%20PROJECT-8B5E3C?style=for-the-badge&labelColor=3E2723&color=A67B5B">
+  <\a>
+
+
+
 ## 🛠️ Technologies
 
 - HTML
