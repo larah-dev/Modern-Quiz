@@ -1,6 +1,6 @@
 # • Modern Quiz
 
-A modern quiz website built with clean design, smooth layout and user experience.
+A modern quiz website with clean design, smooth layout and user experience.
 
 <img src="https://img.shields.io/badge/☕%20HTML-FRONT%20END-8B5E3C?style=for-the-badge&labelColor=3E2723&color=A67B5B"> <br>
 <br>
